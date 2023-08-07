@@ -54,6 +54,7 @@ export default function Home() {
   // Fetch users on component mount
   useEffect(() => {
     fetchUserDetails();
+    // eslint-disable-next-line
   }, []);
 
   /**

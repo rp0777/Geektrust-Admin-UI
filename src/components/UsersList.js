@@ -82,6 +82,7 @@ export default function UsersList({
   useEffect(() => {
     setSelectedUsers({});
     setSelectAllChecked(false);
+    // eslint-disable-next-line
   }, [currentPage]);
 
   /**
