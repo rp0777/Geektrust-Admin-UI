@@ -1,0 +1,43 @@
+/* Styling for the header container at the top of the page */
+.header-container {
+  width: 100%;
+  justify-self: center;
+  background: linear-gradient(to right, rgb(164, 172, 204), rgb(7, 38, 162));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the title within the header */
+.header-title {
+  color: rgb(238, 236, 244);
+  padding-left: 0.5rem;
+  font-family: Helvetica, Arial, Georgia, sans-serif;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+/* Styling for the title when hovered, displaying a pointer cursor */
+.header-title:hover {
+  cursor: pointer;
+}
+
+/* Styling for the main user container */
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the search bar container */
+.search-user {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}

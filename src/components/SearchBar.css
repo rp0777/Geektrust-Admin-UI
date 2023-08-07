@@ -1,0 +1,9 @@
+/* Styling for the search bar input element */
+.search-bar-input {
+  width: 80%;
+  border: 1.5px solid #e9e9e9;
+  height: 0.5rem;
+  margin: 3rem;
+  padding: 3rem;
+  border-radius: 2rem;
+}
